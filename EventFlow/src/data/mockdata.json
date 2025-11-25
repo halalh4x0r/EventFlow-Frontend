@@ -1,0 +1,16 @@
+{
+  "users": [
+    {"id": 1, "username": "alice", "email": "alice@example.com"},
+    {"id": 2, "username": "bob", "email": "bob@example.com"}
+  ],
+  "events": [
+    {"id": 1, "title": "Music Festival", "description": "A fun music festival", "location": "Central Park", "start_time": "2025-12-05T14:00:00", "end_time": "2025-12-05T20:00:00", "capacity": 200, "organizer_id": 1},
+    {"id": 2, "title": "Art Workshop", "description": "Painting workshop", "location": "Downtown Art Studio", "start_time": "2025-12-10T10:00:00", "end_time": "2025-12-10T13:00:00", "capacity": 15, "organizer_id": 2}
+  ],
+  "comments": [
+    {"id": 1, "event_id": 1, "user_id": 2, "content": "Can't wait!"}
+  ],
+  "rsvps": [
+    {"id": 1, "user_id": 2, "event_id": 1, "status": "going"}
+  ]
+}
