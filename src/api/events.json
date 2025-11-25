@@ -1,0 +1,5 @@
+[
+  { "id": 1, "title": "React Meetup", "description": "Learn and share React tips.", "date_time": "2025-12-05T18:00:00", "location": "Tech Hub, Nairobi", "host_id": 1 },
+  { "id": 2, "title": "Flask Workshop", "description": "Hands-on Flask project workshop.", "date_time": "2025-12-10T10:00:00", "location": "Innovation Center, Nairobi", "host_id": 2 },
+  { "id": 3, "title": "Networking Event", "description": "Meet local developers and share experiences.", "date_time": "2025-12-15T17:00:00", "location": "Co-Working Space, Nairobi", "host_id": 3 }
+]
