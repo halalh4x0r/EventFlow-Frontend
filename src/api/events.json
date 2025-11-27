@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "React Meetup",
+    "description": "Learn and share React tips.",
+    "date_time": "2025-12-05T18:00:00",
+    "location": "Tech Hub, Nairobi",
+    "host_id": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Flask Workshop",
+    "description": "Hands-on Flask project workshop.",
+    "date_time": "2025-12-10T10:00:00",
+    "location": "Innovation Center, Nairobi",
+    "host_id": 2,
+    "images":  [
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Networking Event",
+    "description": "Meet local developers and share experiences.",
+    "date_time": "2025-12-15T17:00:00",
+    "location": "Co-Working Space, Nairobi",
+    "host_id": 3,
+    "images":  [
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Full Stack Bootcamp",
+    "description": "Intensive full stack web development.",
+    "date_time": "2025-12-20T09:00:00",
+    "location": "Innovation Hub, Nairobi",
+    "host_id": 1,
+    "images":  [
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Vue.js Workshop",
+    "description": "Hands-on workshop for Vue.js enthusiasts.",
+    "date_time": "2025-12-22T14:00:00",
+    "location": "Tech Hub, Nairobi",
+    "host_id": 2,
+    "images": [
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "AI & ML Conference",
+    "description": "Learn the latest in AI & Machine Learning.",
+    "date_time": "2025-12-25T10:00:00",
+    "location": "Innovation Center, Nairobi",
+    "host_id": 3,
+    "images":  [
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
+  }
+]
