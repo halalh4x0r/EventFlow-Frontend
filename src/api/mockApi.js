@@ -4,6 +4,10 @@ import rsvps from './rsvps.json';
 import comments from './comments.json';
 
 export const api = {
+  users,
+  events,
+  comments,
+  rsvps,
   login(email, password) {
     return users.find(u => u.email === email && u.password === password) || null;
   },

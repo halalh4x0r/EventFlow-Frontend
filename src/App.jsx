@@ -1,22 +1,32 @@
+// App.jsx
 import { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+
 import Home from "./pages/Home";
 import CreatePage from "./pages/CreatePage";
-import EventPage from "./pages/EventPage";
-import mockData from "./data/mockdata.json";
+import EventPage from "./pages/EventDetails";
+import LoginForm from "./components/LoginForm";
+import Profile from "./pages/Profile";
+import NavBar from "./components/NavBar";
 
-function App() {
-  const [users] = useState(mockData.users);
+import { api } from "./api/mockApi";
+import { AuthProvider } from "./context/AuthContext";
+
+function AppWrapper() {
+  // We use a wrapper to access useLocation
+  const location = useLocation();
+  const showNav = location.pathname !== "/login";
+
+  const [users] = useState(api.users);
 
   const [events, setEvents] = useState(() => {
     const saved = localStorage.getItem("events");
-    return saved ? JSON.parse(saved) : mockData.events;
+    return saved ? JSON.parse(saved) : api.getEvents();
   });
 
-  const [comments, setComments] = useState(mockData.comments);
-  const [rsvps, setRsvps] = useState(mockData.rsvps);
+  const [comments, setComments] = useState(api.comments);
+  const [rsvps, setRsvps] = useState(api.rsvps);
 
-  // Persist events to localStorage
   useEffect(() => {
     localStorage.setItem("events", JSON.stringify(events));
   }, [events]);
@@ -29,21 +39,29 @@ function App() {
   };
 
   const sortedEvents = [...events].sort(
-    (a, b) => new Date(a.start_time) - new Date(b.start_time)
+    (a, b) => new Date(a.date_time || a.start_time) - new Date(b.date_time || b.start_time)
   );
 
   return (
-    <Router>
+    <>
+      {showNav && <NavBar />}
       <Routes>
         <Route path="/" element={<Home events={sortedEvents} />} />
         <Route path="/create" element={<CreatePage users={users} createEvent={createEvent} />} />
-        <Route
-          path="/events/:id"
-          element={<EventPage events={events} users={users} comments={comments} rsvps={rsvps} />}
-        />
+        <Route path="/events/:id" element={<EventPage events={events} users={users} comments={comments} rsvps={rsvps} />} />
+        <Route path="/login" element={<LoginForm />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <AuthProvider>
+      <Router>
+        <AppWrapper />
+      </Router>
+    </AuthProvider>
+  );
+}
