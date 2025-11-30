@@ -5,22 +5,20 @@
 ---
 
 ## Group Members
-Muema, Brian
-Matara, Edwin
-Ngaruiya, Victorious
-Ondari, Gidion
-Hadi, Mohamed(Scrum Master)
+-Muema, Brian
+-Matara, Edwin
+-Ngaruiya, Victorious
+-Ondari, Gidion
+-Hadi, Mohamed(Scrum Master)
 
 ---
 
 ## Features
-
-- User authentication (login)  
+ 
 - View list of events  
 - View event details, including images, date, location  
 - RSVP to events (Going, Maybe, Not Going)  
-- Post and view comments on events  
-- Responsive UI for desktops and mobile  
+- Post and view comments on events   
 
 ---
 
@@ -39,15 +37,15 @@ Hadi, Mohamed(Scrum Master)
 
 ### Prerequisites
 
-- Node.js (v16+)  
-- npm or yarn  
+- Node.js 
+- npm 
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone <FRONTEND_REPO_URL>
-cd EventPlannerFE
+git clone git@github.com:halalh4x0r/EventFlow-Frontend.git
+cd EventFlow-Frontend
 
 # Install dependencies
 npm install
