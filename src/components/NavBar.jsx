@@ -16,16 +16,24 @@ export default function NavBar() {
       <div className="container">
         <Link className="navbar-brand fw-bold" to="/">EventFlow</Link>
 
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span className="navbar-toggler-icon"></span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav ms-auto align-items-center">
+          <ul className="navbar-nav ms-auto align-items-center">
             {user ? (
               <>
                 <li className="nav-item me-2">
-                  <span className="nav-link text-white fw-bold">Hi, {user.username}</span>
+                  <span className="nav-link text-white">Hi, {user.username}</span>
                 </li>
                 <li className="nav-item me-2">
                   <Link className="btn btn-outline-light btn-sm" to="/profile">Profile</Link>
@@ -43,7 +51,6 @@ export default function NavBar() {
               </li>
             )}
           </ul>
-
         </div>
       </div>
     </nav>
