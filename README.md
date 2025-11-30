@@ -1,25 +1,110 @@
-# React + Vite
+# Event Planner Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Event Planner Frontend** is a React application that allows users to view events, RSVP, and post comments. It connects to a backend API to manage users, events, RSVPs, and comments.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Group Members
+Muema, Brian
+Matara, Edwin
+Ngaruiya, Victorious
+Ondari, Gidion
+Hadi, Mohamed(Scrum Master)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- User authentication (login)  
+- View list of events  
+- View event details, including images, date, location  
+- RSVP to events (Going, Maybe, Not Going)  
+- Post and view comments on events  
+- Responsive UI for desktops and mobile  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# EventPlannerFE
+---
 
-        both added:      index.html
-        both added:      package-lock.json
-        both added:      package.json
-        both added:      src/App.jsx
-        both added:      src/main.jsx
-        both added:      src/pages/Home.jsx
-        both added:      vite.config.js
+## Technologies
+
+- React 18+  
+- React Router v6  
+- Context API for authentication state  
+- Bootstrap 5 for styling  
+- Fetch API for backend integration  
+- Git for version control  
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16+)  
+- npm or yarn  
+
+### Installation
+
+```bash
+# Clone the repository
+git clone <FRONTEND_REPO_URL>
+cd EventPlannerFE
+
+# Install dependencies
+npm install
+```
+
+### Running the App
+
+```bash
+# Start the development server
+npm start
+```
+
+The app will run at [http://localhost:3000](http://localhost:3000) by default.  
+
+
+
+---
+
+## Available Scripts
+
+- `npm start` – runs the app in development mode  
+- `npm build` – builds the app for production  
+- `npm test` – runs tests (if implemented)  
+
+---
+
+## Configuration
+
+Create a `src/config.js` file with your backend API URL:
+
+```javascript
+export const API_URL = "http://127.0.0.1:5000"; // or your deployed backend URL
+```
+
+---
+
+## Usage
+
+1. Open the app in the browser.  
+2. Login or create a user (depending on backend).  
+3. Browse events on the home page.  
+4. Click an event to see details, RSVP, and add comments.  
+5. Navigate to your profile to see your information (if implemented).  
+
+---
+
+## Contributing
+
+1. Fork the repository  
+2. Create a branch (`git checkout -b feature-name`)  
+3. Make your changes  
+4. Commit your changes (`git commit -m "Add feature"`)  
+5. Push to the branch (`git push origin feature-name`)  
+6. Open a pull request  
+
+---
+
+## License
+
+This project is licensed under the MIT License.
