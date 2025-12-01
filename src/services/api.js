@@ -7,8 +7,7 @@ export const api = {
     const res = await fetch(`${API_URL}/users`);
     const users = await res.json();
 
-    // Your backend should validate passwords — 
-    // adjust this if backend has its own login route.
+//  Find user with matching email and password
     const user = users.find(
       u => u.email === email && u.password === password
     );
