@@ -47,6 +47,7 @@ export default function LoginForm() {
           <button className="btn btn-primary w-100 mt-2" type="submit">Login</button>
         </form>
         <p className="text-center mt-3 text-muted" style={{ fontSize: '0.9rem' }}>
+          
           <a href="#">Sign Up</a> if you don't have an account.
         </p>
       </div>
